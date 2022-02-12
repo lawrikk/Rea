@@ -122,16 +122,23 @@ display: flex;
     border: 1px solid #FF7B47;
 }
 .col-md{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+display: flex;
+justify-content: space-between;
+background-color: #ffffff;
 }
-.col-md>p{
-    color: #737373;
+.col{
+    max-width: 328px;
+    min-height: 242px;
+    padding: 35px 40px;
+    background: #ffffff;
 }
 .row{
-    display: flex;
-flex-direction: row;
-align-items: center;
+display: flex;
+justify-content: space-between;
+justify-content: center;
+
+}
+.col>p{
+    color: #737373;
+    padding-top: 10px;
 }
